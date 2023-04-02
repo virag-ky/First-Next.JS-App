@@ -16,9 +16,6 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
       <section className={utilStyles.headingMd}>
         <p>
           Hello, I'm Virag. I'm a web developer with a variety of technical and
